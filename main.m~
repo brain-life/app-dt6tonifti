@@ -39,8 +39,7 @@ files={fa,md,ad,rd,cl,cp,cs};
 for ii = 1:length(files)
     ni.fname = sprintf('dwi_%s.nii.gz',fileNames{ii});
     ni.data = files{ii};
-    writeFileNifti(ni);
+    writeFileNifti(ni)
 end
 
-exit;
-end
+return;
