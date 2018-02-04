@@ -17,7 +17,7 @@ minVal = 1e-6;
 
 %% Load dt6.mat and tensors.nii.gz
 config = loadjson('config.json');
-dt = dtiLoadDt6(config.dt6, '/dti/dt6.mat'));
+dt = dtiLoadDt6(fullfile(config.dt6, '/dti/dt6.mat'));
 ni = niftiRead(dt.files.tensors);
 
 %% Compute eigenvectors and eigenvalues from dt6
