@@ -4,7 +4,7 @@ module load singularity 2> /dev/null
 
 singularity exec -e docker://brainlife/mcr:neurodebian1604-r2017a ./compiled/main
 
-if [ ! -s dwi_fa.nii.gz ];
+if [ ! -s fa.nii.gz ];
 then
 	echo "output missing"
 	exit 1
