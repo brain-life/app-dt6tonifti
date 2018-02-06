@@ -37,7 +37,7 @@ dt6 = dtiEigComp(eigVec,eigVal);
 %% Write nifti images
 files={fa,md,ad,rd,cl,cp,cs};
 for ii = 1:length(files)
-    ni.fname = sprintf('dwi_%s.nii.gz',fileNames{ii});
+    ni.fname = sprintf('%s.nii.gz',fileNames{ii});
     ni.data = files{ii};
     writeFileNifti(ni);
 end
