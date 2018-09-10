@@ -1,13 +1,19 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/soichih/abcd-spec)
-[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.1-blue.svg)](https://doi.org/10.25663/bl.app.1)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.48-blue.svg)](https://doi.org/10.25663/bl.app.48)
 
 # app-dt6tonifti
 This app will take a dt6 and create tensor (FA,MD,AD,RD) and Westin Shape Indices (cl, cp, cs) nifti images from a dt6.mat structure. First, a dt6.mat structure will be loaded and eigenvectors and eigenvalues will be extracted using Vistasoft's dtiEig function. The negative eigenvalues are then clipped to 0. Finally, tensors and Westin Shape indices nifti images are computed by using Vistasoft's dtiComputeFA and dtiComputeWestinShapes functions. This is all performed by running the main script.
 
-#### Authors
+### Authors
 - Brad Caron (bacaron@iu.edu)
+
+### Contributors
 - Soichi Hayashi (hayashi@iu.edu)
 - Franco Pestilli (franpest@indiana.edu)
+
+### Funding
+[![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
+[![NSF-BCS-1636893](https://img.shields.io/badge/NSF_BCS-1636893-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1636893)
 
 ## Running the App 
 
