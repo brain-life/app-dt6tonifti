@@ -22,7 +22,7 @@ You can submit this App online at [https://doi.org/10.25663/bl.app.48](https://d
 
 ```json
 {
-        "dt6": "./input/dtiinit/",
+        "dt6": "./input/dtiinit/"
 }
 ```
 
