@@ -57,5 +57,5 @@ This App requires the following libraries when run locally.
 
   - singularity: https://singularity.lbl.gov/
   - VISTASOFT: https://github.com/vistalab/vistasoft/
-  - SPM 8
+  - SPM 8: https://www.fil.ion.ucl.ac.uk/spm/software/spm8/
   - jsonlab: https://github.com/fangq/jsonlab.git
